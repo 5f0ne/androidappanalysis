@@ -2,6 +2,10 @@
 
 Setup for Analysis of Android Applications
 
+# Architecture
+
+![](img/01.png)
+
 ---
 
 ## Windows 11 Host
@@ -28,36 +32,7 @@ Setup for Analysis of Android Applications
   <br>
 
   - Setup autoappanalysis:
-    - `pip install autoappanalysis`
-    - Create config file:
-    ```json
-    // config.json
-    {
-      "vm": "app-vm",                                             // Name of the VM
-      "user": "admin",                                            // User Name 
-      "pw": "admin",                                              // Password
-      "input": "/media/sf_avd",                                   // Path to AVD shared folder on VM
-      "output": "/media/sf_results",                              // Path to result shared folder on VM
-      "outputHost": "C:\\Users\\admin\\results",                  // Path to result shared folder on host
-      "snapshot": "C:\\Users\\admin\\.android\\avd\\analysis.avd" // Path to AVD shared folder on host
-    }
-    ```
-
-  <br>
-
-  - Use autoappanalysis:
-    
-    `py -m autoappanalyis -c .\config.jjson`
-    ![](img/01.jpg)
-
-    | Button | Description |
-    | --- | ---|
-    | Root | Get root on AVD |
-    | Extract File | Extract the file based on `AVD File Path` |
-    | Create Snapshot | Create a AVD Snapshot with `Snapshot Name` and `Snapshot Number` |
-    | Decrypt Snapshots | Decrypts all snapshots in `VM Input Directory` |
-    | Analyse Snapshots | Analyses all snapshots in `VM Input Directory + /decrypted`
-
+    - In order to setup the Automation GUI correctly, follow the instructions of [autoappanalysis](https://github.com/5f0ne/autoappanalysis)
 ---
 
 ## Ubuntu 22.02 VM:
@@ -73,8 +48,6 @@ Setup for Analysis of Android Applications
       - Differential analysis of sqlite files
   - Setup:
     - In order to setup the VM correctly, follow the instructions of [app-analysis-setup](https://github.com/5f0ne/app-analysis-setup)
-
-
 
 ---
 
