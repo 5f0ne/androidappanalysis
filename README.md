@@ -26,8 +26,13 @@ Setup for Analysis of Android Applications
       - `C:\Users\[username]\.android\avd\[name].avd`
     - Add a shared folder for your analysis results:
       - Add subdirectory `decrypted`
+        - Contains decrypted system images: `*.raw`
+      - Add subdirectory `files`
+        - Contains a folder for each snapshot with extracted data 
       - Add subdirectory `ge`
+        - Contains idifference2.py output
       - Add subdirectory `sqlitediff`
+        - Contains `sqlitediff` output
   
   <br>
 
