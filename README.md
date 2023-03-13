@@ -28,11 +28,10 @@ Setup for Analysis of Android Applications
       - Add subdirectory `decrypted`
         - Contains decrypted system images: `*.raw`
       - Add subdirectory `files`
-        - Contains a folder for each snapshot with extracted data 
-      - Add subdirectory `ge`
+        - Contains a folder for each snapshot with extracted files 
+      - Add subdirectory `actions`
         - Contains idifference2.py output
-      - Add subdirectory `sqlitediff`
-        - Contains `sqlitediff` output
+
   
   <br>
 
