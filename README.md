@@ -50,6 +50,8 @@ Setup for Analysis of Android Applications
       - Differential analysis of idifference2.py output
     - [sqlitediff](https://github.com/5f0ne/sqlitediff)
       - Differential analysis of sqlite files
+    - [lineident](https://github.com/5f0ne/lineident)
+      - Searches files line by line for given words
   - Setup:
     - In order to setup the VM correctly, follow the instructions of [app-analysis-setup](https://github.com/5f0ne/app-analysis-setup)
 
