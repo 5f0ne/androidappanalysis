@@ -30,7 +30,7 @@ Setup for Analysis of Android Applications
       - Add subdirectory `files`
         - Contains a folder for each snapshot with extracted files 
       - Add subdirectory `actions`
-        - Contains idifference2.py output
+        - Contains a folder for each action with analysis results
 
   
   <br>
