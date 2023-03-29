@@ -13,6 +13,7 @@ Setup for Analysis of Android Applications
     - [VirtualBox](https://www.virtualbox.org/)
     - [Android Studio](https://developer.android.com/studio/)
     - [Burp Suite Community Edition](https://portswigger.net/burp/communitydownload)
+    - [Visual Studio Code](https://code.visualstudio.com/)
     - [autoappanalysis](https://github.com/5f0ne/autoappanalysis)
   
   <br>
@@ -31,7 +32,6 @@ Setup for Analysis of Android Applications
         - Contains a folder for each snapshot with extracted files 
       - Add subdirectory `actions`
         - Contains a folder for each action with analysis results
-
   
   <br>
 
@@ -52,6 +52,8 @@ Setup for Analysis of Android Applications
       - Differential analysis of sqlite files
     - [lineident](https://github.com/5f0ne/lineident)
       - Searches files line by line for given words
+    - [fileextractor](https://github.com/5f0ne/fileextractor)
+      - Extractes files from .raw files using sleuthkit
   - Setup:
     - In order to setup the VM correctly, follow the instructions of [app-analysis-setup](https://github.com/5f0ne/app-analysis-setup)
 
