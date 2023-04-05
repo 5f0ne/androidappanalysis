@@ -21,8 +21,9 @@ Setup for Analysis of Android Applications
   - Setup Host:
     - Add VboxManage to PATH
       - `C:\Program Files\Oracle\VirtualBox`
-    - Add adb to PATH
+    - Add adb and emulator to PATH
       - `C:\Users\[username]\AppData\Local\Android\Sdk\platform-tools`
+      - `C:\Users\[username]\AppData\Local\Android\Sdk\emulator`
     - Add the created AVD folder as a shared folder to your VM:
       - `C:\Users\[username]\.android\avd\[name].avd`
     - Add a shared folder for your analysis results:
