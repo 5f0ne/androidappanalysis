@@ -49,8 +49,10 @@ Setup for Analysis of Android Applications
       - Differential analysis of file systems
     - [evidence](https://github.com/5f0ne/evidence)
       - Differential analysis of idifference2.py output
+    - [sqliteview](https://github.com/5f0ne/sqliteview)
+      - Visualizes SQLite files
     - [sqlitediff](https://github.com/5f0ne/sqlitediff)
-      - Differential analysis of sqlite files
+      - Differential analysis of SQLite files
     - [lineident](https://github.com/5f0ne/lineident)
       - Searches files line by line for given words
     - [fileextract](https://github.com/5f0ne/fileextract)
